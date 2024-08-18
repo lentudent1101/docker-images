@@ -27,7 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/linuxserver/linuxserver/transmission:version-3.00-r8 docker://registry.cn-qingdao.aliyuncs.com/lentudent/transmission:version-3.00-r8
+         skopeo copy docker://docker.io/linuxserver/transmission:version-3.00-r8 docker://registry.cn-qingdao.aliyuncs.com/lentudent/transmission:version-3.00-r8
 
          
          
