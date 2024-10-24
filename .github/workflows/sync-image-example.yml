@@ -27,7 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/homeassistant/home-assistant:stable docker://registry.cn-qingdao.aliyuncs.com/lentudent/home-assistant:stable
+         skopeo copy docker://docker.io/linuxserver/calibre-web:latest docker://registry.cn-qingdao.aliyuncs.com/lentudent/calibre-web:latest
 
          
          
