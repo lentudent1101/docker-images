@@ -27,7 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/neilpang/acme.sh:latest docker://registry.cn-qingdao.aliyuncs.com/lentudent/acme.sh:latest
+         skopeo copy docker://docker.io/hsuyelin/nas-tools:latest docker://registry.cn-qingdao.aliyuncs.com/lentudent/nas-tools:latest
 
          
          
