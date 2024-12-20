@@ -27,7 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/hsuyelin/nas-tools:latest docker://registry.cn-qingdao.aliyuncs.com/lentudent/nas-tools:latest
+         skopeo copy docker://docker.io/homeassistant/amd64-addon-matter-server:latest docker://registry.cn-qingdao.aliyuncs.com/lentudent/amd64-addon-matter-server:latest
 
          
          
