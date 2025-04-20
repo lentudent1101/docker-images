@@ -27,8 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/shuiche/mind-map:latest docker://registry.cn-qingdao.aliyuncs.com/lentudent/mind-map:latest
-
+         skopeo copy docker://docker.io/gdy666/lucky:latest docker://registry.cn-qingdao.aliyuncs.com/lentudent/lucky:latest
          
          
          
